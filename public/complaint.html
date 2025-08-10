@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complaints</title>
+    <title>Complaint</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="newComplaint">
+    <main class="mainApp">
 
-        <section class="complaintUp">
-            <a href="index.html" class="backToMain">⌂</a>
-            <h3 class="upText">New complaint</h3>
-            <label for="complaintOption">⌘</label>
+        <header class="mainUp">
+            <h3>New complaint</h3>
+        </header>
+        
+        <section class="userOptions">
+            <label for="complaintOption" id="options">⌘</label>
             <select name="complaintOption" id="complaintOption">
                 <option value="option1">1</option>
                 <option value="option2">2</option>
                 <option value="option3">3</option>
             </select>
+            <a href="index.html" id="backToMain">⌂</a>
         </section>
 
         <section class="complaintMiddle">
@@ -29,7 +32,7 @@
 
         <section class="complaintDown"></section>
 
-    </section>
+    </main>
 
 </body>
 </html>
