@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaints</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="newComplaint">
+
+        <section class="complaintUp">
+            <a href="index.html" class="backToMain">⌂</a>
+            <h3 class="upText">New complaint</h3>
+            <label for="complaintOption">⌘</label>
+            <select name="complaintOption" id="complaintOption">
+                <option value="option1">1</option>
+                <option value="option2">2</option>
+                <option value="option3">3</option>
+            </select>
+        </section>
+
+        <section class="complaintMiddle">
+            <form action="/complaints/add-complaint" method="post">
+                <textarea class="complaint" placeholder="Enter complaint ✎" name="complaint"></textarea>
+                <button type="submit">Submit complaint</button>
+            </form>
+        </section>
+
+        <section class="complaintDown"></section>
+
+    </section>
+
+</body>
+</html>

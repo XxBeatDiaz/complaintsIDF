@@ -1,0 +1,32 @@
+.mainApp {
+  width: 55%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #a375cb63;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  text-decoration: none;
+}
+
+.mainUp {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(47, 16, 5, 0.39);
+  padding: 0 35%;
+  border-bottom: 1px solid rgba(97, 26, 93, 0.26);
+}
+
+.mainMiddle {
+  margin-top: 20px;
+  padding: 100px;
+  border: 1px solid rgba(97, 26, 93, 0.26);
+  border-radius: 10px;
+}
+
+.mainMiddle #newComplaintBtn {
+  background-color: blueviolet;
+  border-radius: 10px;
+  
+}
